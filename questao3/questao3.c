@@ -16,3 +16,4 @@ if(a > b || !(a > 0)) {
 }
 printf("%.2f\n", c);
 return 0;
+}
