@@ -13,3 +13,8 @@ if (y > z) {
 printf("%d", w);
 return 0;
 }
+
+//16, pois não entra no if. 
+//Primeiro executa w=5+11, ou seja, w=16.
+//Depois, vimos que a condição do if é falsa, pois 5 não é maior que 11.
+//w se mantém 16
